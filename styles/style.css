@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10vh;
+    background-color: red; 
+    background-image: linear-gradient(rgb(246, 25, 25), rgb(255, 213, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0; /* Mantén el encabezado en la parte superior */
+    left: 0; /* Alinea el encabezado con el borde izquierdo */
+    width: 100%; /* Haz que el encabezado ocupe todo el ancho */
+    background-color: white; /* Para asegurar que se vea bien sobre otros elementos */
+    z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+}
+
+.fotologo{
+    height: 13vh;
+}
+
+.navegadorprincipal{
+    background-color: rgb(0, 0, 0);
+    padding-top: 11vh;
+    height: 5vh;   
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.opcionnavegador{
+    color: white; 
+    text-decoration: none;  
+    background-color: rgb(83, 72, 8);
+    
+}
+
+li a {
+    color: #000;
+    padding: 5vh 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+.mainprincipal{
+    height: 188vh;
+    background-color: rgb(233, 61, 61);
+}
